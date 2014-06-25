@@ -1,0 +1,36 @@
+﻿/* оформление и размер блока */
+#slider_cont {
+background-color:#FFF;
+border:0;
+margin:auto;
+width:1217px!important;
+padding:0px;
+}
+
+/* кнопка следующее изображение */
+.bx-prev {
+position:absolute;
+top:45%;
+left:1px;
+width:30px;
+height:30px;
+text-indent:-999999px;
+background:url('../images/gray_p10.png') no-repeat 0 -30px;
+}
+
+/* кнопка предыдущее изображение */
+.bx-next {
+position:absolute;
+top:45%;
+right:1px;
+width:30px;
+height:30px;
+text-indent:-999999px;
+background:url('../images/gray_n10.png') no-repeat 0 -30px;
+}
+
+/* для кнопок при наведении курсора */
+.bx-next:hover,.bx-prev:hover {
+background-position:0 0;
+border:0;
+}

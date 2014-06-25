@@ -1,0 +1,152 @@
+﻿body{
+margin:0px;
+color:#808080;
+font-size:12px;
+padding: 0;
+line-height: normal;
+}
+
+body, input, text area {
+	color: #373737;
+	font:normal 14px/25px "Droid Sans", Tahoma sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+a{
+	color:#8A7B51;
+}
+
+a:hover {
+	color:#e9e9cf;
+}
+
+h1{
+	clear: both;
+	color: #56462B;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-shadow: 1px 1px 1px #fff;
+
+}
+
+h2, h3{
+	font-size:20px;
+	color:#392b00;
+	font-weight:bold;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#text ul{
+font-size:16px;
+}
+
+p{
+	font:normal normal 300 16px Helvetica, Arial, sans-serif;
+}
+
+#text p{
+line-height: 1.5;
+}
+
+#header{
+background-image:url('../images/EliteMiddle.jpg');
+height:120px;
+z-index:1;
+}
+
+#shadow
+ {
+ position:absolute;
+ top:0px;
+ background-image:url('../images/EliteTen.png');
+ background-repeat:repeat-x;
+ z-index:2;
+ height:12px;
+ width:100%;
+ }
+
+#left{
+float:left;
+background-image:url('../images/EliteLeft.jpg');
+height:120px;
+width:417px;
+}
+
+#right{
+float:right;
+background-image:url('../images/EliteRight.jpg');
+height:120px;
+width:469px;
+}
+
+#contacts{
+font: bold 16px Arial, Helvetica;
+color: #8A7B51;
+text-transform: uppercase;
+text-shadow: 0 1px 0 #000;
+padding-top:20px;
+padding-left:20px;
+line-height:1.5;
+}
+
+#logo{
+position:relative;
+left:75px;
+top:15px;
+}
+
+#logo2{
+position:absolute;
+top:-549px;
+right:132px;
+width:297px;
+height:549px;
+background-image:url('../images/EliteTeq.png');
+}
+
+#message{
+color:white;
+text-align:center;
+font:18px Lucida Sans Unicode, Arial, Serif;
+font-style:italic;
+position:absolute;
+top:-259px;
+right:150px;
+width:260px;
+height:110px;
+text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+/*background:red;*/
+}
+
+#sliderback{
+background-image:url('../images/EliteTep.jpg');}
+
+#textback{
+background-image:url('../images/EliteTeq.jpg');
+padding-top:1px;
+padding-bottom:1px;}
+
+#text{
+
+width:700px;
+margin:auto;
+padding-bottom:30px;
+}
+
+#text img{
+padding-left:20px;
+padding-right:20px;
+
+}
+
+#footer{
+background-image:url('../images/footer.jpg');
+height:100px;
+}
+
+#message{}
